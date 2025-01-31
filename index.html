@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Profile card-stage-0</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="top">
+        <div class="time" data-testid="currentTimeUTC">
+          <h1>
+            <i id="hours">12</i>:<i id="minutes">0</i>:<i id="seconds">0</i>
+          </h1>
+        </div>
+      </div>
+      <div class="image-container">
+        <img
+          src="public/images/profile.jpg"
+          data-testid="profilePicture"
+          alt=""
+        />
+      </div>
+
+      <div class="container-2">
+        <div class="name">
+          <h1 data-testid="fullName">Godwin Okon</h1>
+          <p data-testid="jobTitle">Frontend Developer</p>
+        </div>
+        <div class="about">
+          <p data-testid="shortBio">
+            I'm Godwin , a tech-savy with strong interest in web development,
+            ui/ux design, cyber security, machine learning and networking. I
+            enjoy hands-on learning, especially frontend technologies like React
+            and Typescript. i am dedicated to solving real life problems. i'm
+            also a computer student who is open to learning new things as i grow
+            in the field of technology, i strongly hope i achieve this.
+          </p>
+        </div>
+        <div class="others">
+          <div class="location flex">
+            <div id="img">
+              <img src="public/images/location-dot-solid.svg" alt="" />
+            </div>
+
+            <p data-testid="currentLocation">Akwa-ibom state, Nigeria</p>
+          </div>
+          <div id="line"></div>
+          <div class="email flex">
+            <div id="img">
+              <img src="\public\images\envelope-regular.svg" alt="" />
+            </div>
+            <p data-testid="emailAddress">godwinokon112@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="socials" data-testid="socialLinks">
+          <ul>
+            <li>
+              <a href="https://github.com/GodwinOkon112?tab=repositories"
+                >Github</a
+              >
+            </li>
+            <li><a href="https://x.com/godwinokon22">Twitter</a></li>
+            <li>
+              <a href="https://m.facebook.com/profile.php?id=61558696013515"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav"
+                >Linkedin</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
