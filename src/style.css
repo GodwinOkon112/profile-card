@@ -176,6 +176,7 @@ img {
 
   .socials li a {
     padding-block: 0.3rem;
+    font-size: 1rem;
   }
 
   .socials {
@@ -190,7 +191,7 @@ img {
   .time h1,
   .time i {
     letter-spacing: 0.1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .image-container {
@@ -212,5 +213,9 @@ img {
 
   #top {
     height: 90px;
+  }
+
+  .others p {
+    font-size: 0.8rem;
   }
 }
