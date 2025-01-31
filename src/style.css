@@ -69,7 +69,8 @@ img {
 .time h1,
 .time i {
   font-weight: 400;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.3rem;
+  font-size: 1.5rem;
 }
 
 .image-container {
@@ -156,5 +157,60 @@ img {
 @media screen and (max-width: 456px) {
   #line {
     display: none;
+  }
+
+  .container {
+    max-width: 80%;
+    min-width: 300px;
+    margin-bottom: 1rem;
+  }
+
+  .others {
+    row-gap: 1px;
+  }
+
+  .about {
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+  }
+
+  .socials li a {
+    padding-block: 0.3rem;
+  }
+
+  .socials {
+    padding-top: 0.5rem;
+  }
+
+  .time {
+    padding-top: 3.5rem;
+    padding-right: 1rem;
+  }
+
+  .time h1,
+  .time i {
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+  }
+
+  .image-container {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .name h1 {
+    font-size: 1.9rem;
+  }
+
+  .name p {
+    font-size: 1.1rem;
+  }
+
+  .container-2 {
+    padding-inline: 1rem;
+  }
+
+  #top {
+    height: 90px;
   }
 }
